@@ -46,6 +46,8 @@ class Order extends React.Component {
                     </div>
                 </div>
             </div>
-        )
-    }
-}
+        );
+    };
+};
+
+export default Order;
