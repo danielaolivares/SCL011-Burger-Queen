@@ -24,7 +24,7 @@ class Order extends React.Component {
               <div>
                 <h2> Desayuno</h2>
                 <ButtonBasic
-                  name="Café americano $500"
+                  name="Café americano $5000"
                   onChange={this.handleChange}
                 />
                 <ButtonBasic
