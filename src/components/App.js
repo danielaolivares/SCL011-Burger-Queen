@@ -10,11 +10,11 @@ function Opp() {
     return (
         <BrowserRouter>
             <Switch>
-                <Route path="/principal" component={Principal} />
-                <Route path="/order" component={Order} />
-                <Route path="/orderHistory" component={OrdersHistory} />
-                <Route path="/chefTables" component={ChefTables} />
-                <Route path="/waiterTables" component={WaiterTables} />
+                <Route exact path="/" component={Principal} />
+                <Route exact path="/order" component={Order} />
+                <Route exact path="/orderHistory" component={OrdersHistory} />
+                <Route exact path="/chefTables" component={ChefTables} />
+                <Route exact path="/waiterTables" component={WaiterTables} />
             </Switch>
         </BrowserRouter>
     )

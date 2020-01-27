@@ -1,14 +1,20 @@
 import React from "react";
 
 class ButtonBasic extends React.Component {
-  state = {};
-  handleChange = e => {
-    console.log({ e });
-  };
+  // state = {};
+  // handleClick = e => {
+  //   console.log("click")
+  //   this.setState({
+  //     [e.target.value]: e.target.value,
+
+  //   },
+  //     console.log(this.state)
+  //   )
+  // };
   render() {
     return (
       <div>
-        <input onChange={this.handleChange} type="button" className="btn btn-success" value={this.props.name} />
+        <button onClick={this.handleClick} type="button" className="btn btn-success" value={this.props.name}>{this.props.name}${this.props.price}</button>
       </div>
     );
   }

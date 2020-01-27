@@ -10,6 +10,7 @@ class WaiterTables extends React.Component {
                 <Link to="/order" className="btn btn-success">Mesa 3</Link>
                 <Link to="/order" className="btn btn-success">Mesa 4</Link>
                 <Link to="/order" className="btn btn-success">Mesa 5</Link>
+                <Link to="/" className="btn btn-success"> Volver </Link>
             </div>
         );
     };

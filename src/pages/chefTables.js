@@ -5,11 +5,11 @@ class ChefTables extends React.Component {
     render() {
         return (
             <div>
-                <Link to="/principal" className="btn btn-success">Mesa 1</Link>
-                <Link to="/principal" className="btn btn-success">Mesa 2</Link>
-                <Link to="/principal" className="btn btn-success">Mesa 3</Link>
-                <Link to="/principal" className="btn btn-success">Mesa 4</Link>
-                <Link to="/principal" className="btn btn-success">Mesa 5</Link>
+                <Link exactly to="/" className="btn btn-success">Mesa 1</Link>
+                <Link to="/" className="btn btn-success">Mesa 2</Link>
+                <Link to="/" className="btn btn-success">Mesa 3</Link>
+                <Link to="/" className="btn btn-success">Mesa 4</Link>
+                <Link to="/" className="btn btn-success">Mesa 5</Link>
             </div>
         );
     };
